@@ -40,7 +40,7 @@ if (isset($_REQUEST["empRegSubmit"]) ){
 }
 ?>
 
-	<div class="container">
+	<div class="container akbc">
 		<div class="row">
 			<div class="col-sm-12">
 				<!-- <img src="registration-header.jpg" alt="Registration Form" class="img-responsive"> -->
