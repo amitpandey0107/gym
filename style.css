@@ -1,0 +1,156 @@
+body{
+	font-size: 16px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.formWrap{
+	margin: 10px 0;
+}
+.formWrap:after, .formRow:after, .mainMenu:after, nav:after, nav ul:after{
+	content: "";
+	display: block;
+	position: relative;
+	clear: both;
+}
+.formRow{
+	margin-bottom: 10px;
+}
+
+.mainMenu nav ul {
+	list-style-type: none;
+	margin-bottom:0;
+}
+.mainMenu nav{
+	background: #333;
+}
+.mainMenu nav ul li {
+	list-style-type: none;
+	float: left;
+	display: inline-block;
+}
+.mainMenu nav ul li a{
+    color: #fff;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+.mainMenu nav ul li a:hover{
+	background: #c9302c;
+	transition: all 0.4s ease-in-out;
+}
+.form-control, .btn{
+	border-radius: 0;
+}
+.userAdd{
+	margin-top: 10px;
+}
+.userAdd a{
+	display: inline-block;
+	background: #0088cc;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+}
+.userAdd a:hover{
+	transition: all 0.4s ease-in-out;
+	background: #333;
+}
+.userAdd a i{
+	margin-right: 5px;
+}
+footer{
+	background: #000;
+	padding: 20px;
+	margin-top: 40px;
+	color: #fff;
+}
+footer a,footer span{
+	color: #fff;
+	text-decoration: none;
+}
+
+.border{
+	padding: 15px 0;
+    border: 2px dashed #0088cc;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.empRegSubmit{
+	display: block;
+	width: 100%;
+}
+
+.messagesBox{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.showListWrap{
+	margin-top: 25px;
+	overflow-x: scroll;
+}
+
+.deleterow{
+    background: red;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+    display: inline-block;
+    line-height: 54px;
+    text-decoration: none;
+    padding-top: 3px;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+}
+
+.editrow{
+    background: #0088cc;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+    display: inline-block;
+    line-height: 54px;
+    text-decoration: none;
+    padding-top: 3px;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+}
+
+.deleterow:hover, .editrow:hover{
+	transition: all 0.4s ease-in-out;
+	background: #333;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.viewBanner{
+	height: 200px;
+    background: #3FB8AF;
+    display: table;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.textBanner{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 600;
+    text-shadow: 3px 9px 12px #333;
+}
